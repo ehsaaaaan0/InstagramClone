@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/open_message_activity"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_40mdp"
+        android:layout_height="@dimen/_40mdp"
+        android:layout_marginStart="@dimen/_5mdp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/profile_user"
+        android:id="@+id/profile_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        app:layout_constraintVertical_bias="0.25"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:id="@+id/message_fullName"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@id/profile_message"
+        app:layout_constraintStart_toEndOf="@id/profile_message"
+        app:layout_constraintTop_toTopOf="@+id/profile_message" />
+
+    <TextView
+        android:id="@+id/message_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Full Name"
+        android:textColor="#5E5E5E"
+        android:textSize="12sp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toEndOf="@+id/profile_message"
+        app:layout_constraintTop_toBottomOf="@id/message_fullName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

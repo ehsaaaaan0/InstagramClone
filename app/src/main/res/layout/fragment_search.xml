@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Search">
+
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/guideline4"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:id="@+id/search_user"
+        android:hint="Search User"
+        android:drawableStart="@drawable/search"
+        android:paddingStart="10dp"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_8mdp"
+        android:background="@drawable/edit_profilebg"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        android:drawableLeft="@drawable/search"
+        android:paddingLeft="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="10dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/search_rv"
+        android:visibility="gone"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_layout="@layout/search_demo"
+        app:layout_constraintTop_toBottomOf="@id/search_user"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:id="@+id/post_rv"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_layout="@layout/demo_search_post"
+        app:layout_constraintTop_toBottomOf="@id/search_user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

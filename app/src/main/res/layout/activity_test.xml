@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:fontFamily="@font/fontprint_regular"-->
+<!--        android:text="Instagram"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="@dimen/_20font_mdp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/message_user"-->
+<!--        android:layout_width="@dimen/_17mdp"-->
+<!--        android:layout_height="@dimen/_17mdp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:layout_marginRight="6dp"-->
+<!--        android:src="@drawable/messenger"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView2" />-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical" >-->
+<!--            -->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:id="@+id/circleImageView_"-->
+<!--                        android:layout_width="@dimen/_46mdp"-->
+<!--                        android:layout_height="@dimen/_46mdp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:padding="3dp"-->
+<!--                        android:layout_marginStart="15dp"-->
+<!--                        android:src="@drawable/profile_user"-->
+<!--                        app:civ_border_color="#FF000000"-->
+<!--                        app:civ_border_width="0.5dp"/>-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageView"-->
+<!--                        android:layout_width="@dimen/_16mdp"-->
+<!--                        android:layout_height="@dimen/_16mdp"-->
+<!--                        android:src="@drawable/plus_story_"-->
+<!--                        android:layout_marginTop="-20dp"-->
+<!--                        android:layout_marginStart="55dp"/>-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/user_name_story"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:text="UserName"-->
+<!--                        android:padding="4dp"-->
+<!--                        android:layout_marginTop="@dimen/_2mdp"-->
+<!--                        android:textColor="#2E2E2E"-->
+<!--                        android:textSize="11.5sp"/>-->
+<!--                </LinearLayout>-->
+
+<!--                <com.cooltechworks.views.shimmer.ShimmerRecyclerView-->
+<!--                    android:id="@+id/recycler_story"-->
+<!--                    android:layout_width="335dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/_5mdp"-->
+<!--                    app:shimmer_demo_child_count="10"-->
+<!--                    app:shimmer_demo_layout="@layout/demo_story" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:id="@+id/view3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="0.2dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="#E6E6E6"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/recycler_story" />-->
+
+
+<!--            <com.cooltechworks.views.shimmer.ShimmerRecyclerView-->
+<!--                android:id="@+id/post_recyclerView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:nestedScrollingEnabled="false"-->
+<!--                app:shimmer_demo_child_count="10"-->
+<!--                app:shimmer_demo_layout="@layout/demo_post" />-->
+<!--            -->
+<!--            -->
+<!--            -->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

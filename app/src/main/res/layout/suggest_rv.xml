@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_170mdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="@dimen/_30mdp"
+    app:cardCornerRadius="@dimen/_3mdp"
+    android:layout_marginTop="@dimen/_10mdp"
+    android:layout_marginStart="@dimen/_5mdp"
+    android:layout_marginEnd="@dimen/_5mdp"
+    android:layout_marginBottom="@dimen/_10mdp"
+    android:layout_height="wrap_content"
+    android:id="@+id/sugested_click">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_95mdp"
+            android:layout_height="@dimen/_95mdp"
+            android:layout_gravity="center"
+            android:id="@+id/suggest_profile"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:src="@drawable/profile_user"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:gravity="center"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="@dimen/_12font_mdp"
+            android:textColor="#000000"
+            android:id="@+id/suggest_name"
+            android:layout_marginTop="@dimen/_3mdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Follows you"
+            android:id="@+id/usernamehere_suggest"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_2mdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_24mdp"
+            android:background="@drawable/buttonbg"
+            android:text="Follow"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:id="@+id/startFollow"
+            android:layout_marginTop="@dimen/_5mdp"
+            android:layout_marginEnd="@dimen/_10mdp"
+            android:layout_marginStart="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

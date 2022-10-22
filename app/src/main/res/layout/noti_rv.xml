@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5mdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_36mdp"
+        android:layout_height="@dimen/_36mdp"
+        android:src="@drawable/profile_user"
+        android:id="@+id/notiProfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/notUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="sans-serif"
+        android:text="testNoti56"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/notiProfile"
+        app:layout_constraintStart_toEndOf="@+id/notiProfile"
+        app:layout_constraintTop_toTopOf="@+id/notiProfile"
+        app:layout_constraintVertical_bias="0.14" />
+    <TextView
+        android:id="@+id/nottext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif"
+        android:text="testNoti56"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/notUserName"
+        app:layout_constraintStart_toEndOf="@+id/notUserName"
+        app:layout_constraintTop_toTopOf="@+id/notUserName" />
+
+    <TextView
+        android:id="@+id/notitime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/notUserName"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/notUserName"
+        app:layout_constraintTop_toBottomOf="@+id/notUserName" />
+
+
+    <ImageView
+        android:layout_width="@dimen/_36mdp"
+        android:layout_height="@dimen/_36mdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/post_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notiProfile"
+        app:layout_constraintBottom_toBottomOf="@id/notiProfile"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/postimage"/>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="@dimen/_27mdp"-->
+<!--        android:src="@drawable/post_3"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:text="Follow"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintTop_toTopOf="@id/notiProfile"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/notiProfile"-->
+<!--        android:layout_marginEnd="5dp"-->
+<!--        android:background="@drawable/buttonbg"-->
+<!--        android:id="@+id/follow_button"/>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/buttonbg.xml" value="0.1545" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/camera_message_bg.xml" value="0.188" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/edit_profilebg.xml" value="0.153" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/heart_cl.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/heart_click.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/home_selector.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/loginedittextbg.xml" value="0.1545" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/receiver_bg.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/search.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/search_selector.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/sender_bg.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/sendmessage_bg.xml" value="0.177" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/simple_cricle.xml" value="0.166" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/story_cricle.xml" value="0.1635" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/drawable/story_cricle_bg.xml" value="0.178" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_coment_post.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_edit_profile.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_enter_otp.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_image_click.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_login.xml" value="0.18229166666666666" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_main_message.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_message.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_namd_and_pass.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_name_and_password.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_nameand_pass_phone.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_next_name.xml" value="0.17239583333333333" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_searched_user.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_sign_in.xml" value="0.18229166666666666" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_sign_up.xml" value="0.18229166666666666" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_splash_screen.xml" value="0.18229166666666666" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_test.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_upload_post.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/activity_usernameand_dateofbirth.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/attach_user_rv.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/comment_sample.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/demo_post.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/demo_search_post.xml" value="0.21" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/demo_story.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_add.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_grid_frgament.xml" value="0.1835897435897436" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_home.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_login_with_email.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_login_with_phone.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_notification.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_profile.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_saved_posts.xml" value="0.17239583333333333" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/fragment_videos.xml" value="0.22" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/home_post_rv.xml" value="0.5" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/home_stories_rv.xml" value="0.25" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/message_layout_.xml" value="0.1835897435897436" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/message_rv.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/noti_rv.xml" value="0.5" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/otp.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/profile_adpater.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/receiver_messagedesign.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/search_demo.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/search_post_rv.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/search_shimmer_seffect.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/searchuser_rv.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/sender_messagedesign.xml" value="0.18645833333333334" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/layout/suggest_rv.xml" value="0.33" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/menu/log_menu.xml" value="0.1712962962962963" />
+        <entry key="..\:/SH practice/InstagramClone/app/src/main/res/menu/nav_menu.xml" value="0.18055555555555555" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

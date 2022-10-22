@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentications.LoginActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="20dp" />
+
+
+    <TextView
+        android:id="@+id/instaname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:gravity="center"
+        android:text="Instagram"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="180dp" />
+
+    <EditText
+        android:id="@+id/email_phoeNumber"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/loginedittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="Phone number, email address"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/instaname" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@drawable/loginedittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/email_phoeNumber" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:id="@+id/login"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/pass" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Forgotten your login details?"
+        android:id="@+id/forget1"
+        android:layout_marginTop="10dp"
+        android:textSize="11sp"
+        android:gravity="end"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintEnd_toStartOf="@id/forget2"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Get help with logging in"
+        android:id="@+id/forget2"
+        android:textSize="11sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        app:layout_constraintStart_toEndOf="@id/forget1"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:id="@+id/or"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/forget2"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:text="Log In with Facebook"
+        android:id="@+id/login_fb"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:drawableLeft="@drawable/facebook"
+        android:background="@drawable/buttonbg"
+        android:layout_gravity="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/or" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/signup_togo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#DCDCDC"/>
+
+
+    <TextView
+        android:id="@+id/signup1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:gravity="end"
+        android:textSize="13sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toStartOf="@id/signup_togo"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        app:layout_constraintStart_toEndOf="@id/guideline1"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/signup_togo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:gravity="start"
+        android:layout_marginStart="10dp"
+        android:textColor="#3F51B5"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/signup1"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        android:layout_marginLeft="10dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
